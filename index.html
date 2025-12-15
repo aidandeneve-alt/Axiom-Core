@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axiom Core | Engineering the Future of Intelligence</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark background for a tech feel */
+            color: #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="bg-[#161b22] sticky top-0 z-10 shadow-lg">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo/Company Name -->
+            <div class="flex items-center space-x-2">
+                <!-- Simple Vector Icon (Axiom 'A' or Core 'C') using SVG for a clean look -->
+                <svg class="w-8 h-8 text-[#00c6ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                </svg>
+                <span class="text-2xl font-bold text-white">Axiom Core</span>
+            </div>
+            
+            <!-- Desktop Navigation Links (Hidden on mobile) -->
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#mission" class="text-gray-300 hover:text-[#00c6ff] transition duration-300">Mission</a>
+                <a href="#ai-product" class="text-gray-300 hover:text-[#00c6ff] transition duration-300">Our AI</a>
+                <a href="#vision" class="text-gray-300 hover:text-[#00c6ff] transition duration-300">Future Tech</a>
+                <a href="#contact" class="text-gray-300 hover:text-[#00c6ff] transition duration-300">Contact</a>
+            </div>
+            
+            <!-- Simple Mobile Menu Placeholder -->
+            <button class="md:hidden text-gray-300 hover:text-[#00c6ff] focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-screen flex items-center justify-center text-center overflow-hidden bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080/161b22/00c6ff?text=Digital+Network+Background');">
+            <!-- Overlay to ensure text readability -->
+            <div class="absolute inset-0 bg-black opacity-70"></div>
+            
+            <div class="relative z-0 max-w-4xl px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-4 leading-tight">
+                    Engineering the <span class="text-[#00c6ff]">Future of Intelligence</span>
+                </h1>
+                <p class="text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                    Axiom Core builds foundational, adaptable technologies, starting with our proprietary AI, to drive progress across industries.
+                </p>
+                <a href="#ai-product" class="inline-block px-8 py-3 bg-[#00c6ff] text-[#161b22] font-semibold text-lg rounded-full shadow-xl hover:bg-[#00a3d4] transition duration-300 transform hover:scale-105">
+                    Explore Our Axiom AI
+                </a>
+            </div>
+        </section>
+
+        <!-- Mission & About Section -->
+        <section id="mission" class="py-20 bg-[#0d1117]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="lg:flex lg:items-center lg:justify-between">
+                    <div class="lg:w-1/2 mb-10 lg:mb-0">
+                        <h2 class="text-4xl font-bold text-white mb-4 border-l-4 border-[#00c6ff] pl-4">Our Core Mission</h2>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            At Axiom Core, we believe in creating technology that is not just smart, but profoundly useful. Our mission is to develop foundational AI and deep tech infrastructure capable of autonomously solving complex, real-world problems from optimizing global supply chains to accelerating scientific discovery.
+                        </p>
+                    </div>
+                    
+                    <div class="lg:w-5/12 p-8 bg-[#161b22] rounded-xl shadow-2xl border border-gray-700">
+                        <h3 class="text-2xl font-semibold text-[#00c6ff] mb-4">Why Axiom?</h3>
+                        <ul class="space-y-4 text-gray-300">
+                            <li class="flex items-start space-x-3">
+                                <span class="text-[#00c6ff] font-bold text-xl">&#9733;</span>
+                                <p><strong>Foundational Tech:</strong> We focus on the core algorithms, not just the applications.</p>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-[#00c6ff] font-bold text-xl">&#9733;</span>
+                                <p><strong>Adaptability:</strong> Our solutions are designed to scale and integrate seamlessly across diverse industries.</p>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <span class="text-[#00c6ff] font-bold text-xl">&#9733;</span>
+                                <p><strong>Ethical AI:</strong> Commitment to transparent and accountable intelligence systems.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Product Section -->
+        <section id="ai-product" class="py-20 bg-[#161b22]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-center text-4xl font-bold text-white mb-12">Axiom AI: Our Core Intelligence</h2>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <!-- Text Content -->
+                    <div class="space-y-6">
+                        <p class="text-gray-400 text-lg">
+                            Axiom AI is the first iteration of Axiom Core's proprietary intelligence architecture. It is a self-optimizing, general-purpose AI designed to handle massive, unstructured datasets and derive actionable insights faster than any traditional system.
+                        </p>
+                        
+                        <div class="p-6 bg-[#0d1117] rounded-lg border border-[#00c6ff]">
+                            <h4 class="text-xl font-semibold text-white mb-2">Key Capabilities:</h4>
+                            <ul class="list-disc list-inside text-gray-300 space-y-1">
+                                <li>Real-time predictive modeling.</li>
+                                <li>Natural Language Synthesis and Reasoning.</li>
+                                <li>Complex System Simulation.</li>
+                                <li>Adaptive learning in dynamic environments.</li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="inline-block text-lg font-medium text-[#00c6ff] hover:text-white transition duration-300">
+                            Learn More about Axiom AI &rarr;
+                        </a>
+                    </div>
+
+                    <!-- Image/Diagram Placeholder -->
+                    <div class="flex justify-center">
+                        <div class="p-8 bg-[#0d1117] rounded-2xl shadow-inner border-4 border-[#00c6ff] border-opacity-50 transition duration-500 hover:shadow-2xl hover:border-opacity-100">
+                            <svg class="w-64 h-64 sm:w-80 sm:h-80 text-[#00c6ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9h-3M6 12a9 9 0 019-9m-6 9a9 9 0 009 9m-11.146 2.854a.5.5 0 01-.708 0l-2-2a.5.5 0 010-.708l.354-.354m1.146 1.146L6 18m0 0l-1.146-1.146m1.146 1.146l2 2m-2-2l-2-2"></path>
+                            </svg>
+                            <p class="text-center text-sm mt-3 text-gray-500">Axiom AI Core Schematic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Future Vision Section -->
+        <section id="vision" class="py-20 bg-[#0d1117]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl font-bold text-white mb-6">Beyond AI: What's Next for Axiom Core</h2>
+                <p class="text-xl text-gray-400 mb-12 max-w-3xl mx-auto">
+                    Our AI is just the beginning. We are actively expanding our R&D pipeline to integrate this intelligence into new, groundbreaking technologies.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Future Tech Card 1 -->
+                    <div class="p-6 bg-[#161b22] rounded-xl shadow-lg border border-gray-700 hover:border-[#00c6ff] transition duration-300">
+                        <svg class="w-10 h-10 mx-auto mb-4 text-[#00c6ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.002 2.002L18.004 5l-2.002-2.002m-4.004 4.004L7.996 9M11 15v-4m-2-2h4m0 0l2.002 2.002L18.004 15l-2.002-2.002m-4.004-4.004L7.996 9"></path></svg>
+                        <h3 class="text-xl font-semibold text-white mb-3">Decentralized Compute</h3>
+                        <p class="text-gray-400 text-sm">
+                            Building secure, scalable, and decentralized computing fabrics powered by our proprietary consensus mechanisms.
+                        </p>
+                    </div>
+
+                    <!-- Future Tech Card 2 -->
+                    <div class="p-6 bg-[#161b22] rounded-xl shadow-lg border border-gray-700 hover:border-[#00c6ff] transition duration-300">
+                        <svg class="w-10 h-10 mx-auto mb-4 text-[#00c6ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414a1 1 0 00-.707-.293H7a2 2 0 00-2 2v11m0 0l-2 2"></path></svg>
+                        <h3 class="text-xl font-semibold text-white mb-3">Quantum-Resistant Security</h3>
+                        <p class="text-gray-400 text-sm">
+                            Developing next-generation encryption protocols to secure data against emerging threats from quantum systems.
+                        </p>
+                    </div>
+
+                    <!-- Future Tech Card 3 -->
+                    <div class="p-6 bg-[#161b22] rounded-xl shadow-lg border border-gray-700 hover:border-[#00c6ff] transition duration-300">
+                        <svg class="w-10 h-10 mx-auto mb-4 text-[#00c6ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-semibold text-white mb-3">Hyper-Automation Robotics</h3>
+                        <p class="text-gray-400 text-sm">
+                            Integrating Axiom AI into physical systems for fully autonomous, high-precision industrial and exploratory tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action / Partnership Section -->
+        <section class="py-16 bg-[#00c6ff]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-[#0d1117] mb-4">Ready to Build the Future with Us?</h2>
+                <p class="text-lg text-[#161b22] mb-8 max-w-xl mx-auto">
+                    Whether you are an investor, a potential partner, or a brilliant mind seeking opportunity, we want to hear from you.
+                </p>
+                <a href="#contact" class="inline-block px-10 py-3 bg-[#0d1117] text-[#00c6ff] font-semibold text-lg rounded-full shadow-2xl hover:bg-gray-800 transition duration-300 transform hover:scale-105 border border-[#00c6ff]">
+                    Get In Touch
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-[#0d1117]">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-center text-4xl font-bold text-white mb-10">Contact Axiom Core</h2>
+                
+                <div class="max-w-xl mx-auto">
+                    <!-- Display Email Address prominently -->
+                    <div class="text-center mb-8">
+                        <p class="text-gray-400 text-lg mb-2">For business inquiries and partnerships, please email us:</p>
+                        <a href="mailto:AxiomCoreBusiness@proton.me" class="text-2xl font-bold text-[#00c6ff] hover:text-white transition duration-300 break-all">
+                            AxiomCoreBusiness@proton.me
+                        </a>
+                    </div>
+                    
+                    <!-- Simple Contact Form (now includes JS handling and success message) -->
+                    <form id="contactForm" class="space-y-6 p-8 bg-[#161b22] rounded-xl shadow-xl border border-gray-700">
+                        <!-- Message Box for Success/Error -->
+                        <div id="messageBox" class="hidden p-4 rounded-lg text-sm font-medium" role="alert"></div>
+
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-300 mb-1">Name</label>
+                            <input type="text" id="name" name="name" class="w-full p-3 bg-[#0d1117] border border-gray-700 rounded-lg text-white focus:ring-[#00c6ff] focus:border-[#00c6ff] transition duration-150" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Email</label>
+                            <input type="email" id="email" name="email" class="w-full p-3 bg-[#0d1117] border border-gray-700 rounded-lg text-white focus:ring-[#00c6ff] focus:border-[#00c6ff] transition duration-150" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300 mb-1">How can we help?</label>
+                            <textarea id="message" name="message" rows="4" class="w-full p-3 bg-[#0d1117] border border-gray-700 rounded-lg text-white focus:ring-[#00c6ff] focus:border-[#00c6ff] transition duration-150" required></textarea>
+                        </div>
+                        <button type="submit" id="submitButton" class="w-full px-4 py-3 bg-[#00c6ff] text-[#161b22] font-semibold rounded-lg hover:bg-[#00a3d4] transition duration-300 transform hover:shadow-lg">
+                            Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#161b22] py-8 border-t border-gray-700">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+            <p>&copy; 2025 Axiom Core. All rights reserved. | Engineering the Future of Intelligence.</p>
+            <div class="mt-2 space-x-4">
+                <a href="#mission" class="hover:text-[#00c6ff] transition duration-300">Privacy Policy</a>
+                <span class="text-gray-600">|</span>
+                <a href="#vision" class="hover:text-[#00c6ff] transition duration-300">Careers</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for handling the contact form submission
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('contactForm');
+            const messageBox = document.getElementById('messageBox');
+            const submitButton = document.getElementById('submitButton');
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault(); // Stop the default form submission
+
+                // 1. Get form data (for potential use in a real API call)
+                const formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    message: document.getElementById('message').value
+                };
+
+                // 2. Simulate sending the form data (in a real app, this would be a fetch() call to a server)
+                submitButton.textContent = 'Sending...';
+                submitButton.disabled = true;
+
+                setTimeout(() => {
+                    // Simulate a successful submission
+                    messageBox.classList.remove('hidden', 'bg-red-500', 'text-red-900', 'bg-blue-500', 'text-blue-900');
+                    messageBox.classList.add('bg-green-500/20', 'text-green-400');
+                    messageBox.innerHTML = 'Thank you for your inquiry! We have received your message and will respond to ' + formData.email + ' shortly.';
+
+                    // Clear the form fields
+                    form.reset();
+                    
+                    // Reset the button
+                    submitButton.textContent = 'Send Inquiry';
+                    submitButton.disabled = false;
+                }, 1500); // 1.5 second delay to simulate network latency
+            });
+        });
+    </script>
+
+</body>
+</html>
